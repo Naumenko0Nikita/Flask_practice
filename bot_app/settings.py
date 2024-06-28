@@ -7,7 +7,7 @@ from email.mime.text import MIMEText
 
 
 
-bot = telebot.TeleBot(token = "7288836611:AAEqW2rsGrWsat1iiiXHpEXFGVyXQOfoz5w")
+bot = telebot.TeleBot(token = "BOT_TOKEN")
 button_1 = telebot.types.InlineKeyboardButton(text = "GET USERS", callback_data = "get_users")
 button_2 = telebot.types.InlineKeyboardButton(text = "DELETE USER", callback_data = "delete_user")
 button_3 = telebot.types.InlineKeyboardButton(text = "REMOVE ADMIN", callback_data = "remove_admin")
